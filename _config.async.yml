@@ -63,6 +63,8 @@ top_bars:
   - title: 分类
     url: /categories/
 footer:
+  copyrightYear: 2020
+  custom_text: Hosted by <a href="https://github.com" rel="noopener" target="_blank">Github Pages</a>
   powered:
     enable: false
 sidebar:
