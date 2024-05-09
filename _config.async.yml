@@ -62,6 +62,8 @@ top_bars:
     url: /archives/
   - title: 分类
     url: /categories/
+  - title: 我的项目
+    url: /project/
 footer:
   copyrightYear: 2020
   custom_text: Hosted by <a href="https://github.com" rel="noopener" target="_blank">Github Pages</a>
