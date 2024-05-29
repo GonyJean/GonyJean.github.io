@@ -31,7 +31,7 @@ The Graph 可以有效地索引和查询区块链数据。它允许开发者通�
 
 ## 第一步：创建子图
 
-首先需要使用 Graph CLI 创建了一个新的子图项目。通过运行以下命令，我初始化了一个新的子图：
+首先需要使用 Graph CLI 创建了一个新的子图项目。通过运行以下命令，初始化了一个新的子图：
 
 ```bash
 graph init --from-contract <CONTRACT_ADDRESS> <GITHUB_USERNAME>/<SUBGRAPH_NAME> --network <NETWORK>
@@ -41,7 +41,7 @@ graph init --from-contract <CONTRACT_ADDRESS> <GITHUB_USERNAME>/<SUBGRAPH_NAME> 
 
 ## 第二步：定义子图
 
-在 `subgraph.yaml` 文件中，我定义了子图的结构，包括需要索引的事件、实体和映射。这一步骤非常重要，因为它决定了子图如何从区块链中提取和存储数据。
+在 `subgraph.yaml` 文件中，定义了子图的结构，包括需要索引的事件、实体和映射。这一步骤非常重要，因为它决定了子图如何从区块链中提取和存储数据。
 
 ## 第三步：编写映射代码
 
@@ -49,7 +49,7 @@ graph init --from-contract <CONTRACT_ADDRESS> <GITHUB_USERNAME>/<SUBGRAPH_NAME> 
 
 ## 第四步：部署子图
 
-在本地测试完成后，我将子图部署到 The Graph 的托管服务上。首先，我需要创建一个新的子图并获取部署密钥。然后，通过运行以下命令将子图部署到 The Graph 网络：
+在本地测试完成后，将子图部署到 The Graph 的托管服务上。首先，需要创建一个新的子图并获取部署密钥。然后，通过运行以下命令将子图部署到 The Graph 网络：
 
 ```bash
 graph auth --product hosted-service <ACCESS_TOKEN>
@@ -58,9 +58,9 @@ graph deploy --product hosted-service <GITHUB_USERNAME>/<SUBGRAPH_NAME>
 
 ## 第五步：查询子图
 
-子图部署成功后，我可以使用 GraphQL 进行数据查询。The Graph 提供了一个强大的查询接口，使得我能够方便地检索和展示数据。
+子图部署成功后，可以使用 GraphQL 进行数据查询。The Graph 提供了一个强大的查询接口，使得能够方便地检索和展示数据。
 
-## 我的hackathon项目子图
+## 的hackathon项目子图
 (https://thegraph.com/studio/subgraph/auctionclub0/playground)
 ## 参考资源
 
