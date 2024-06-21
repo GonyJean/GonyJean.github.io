@@ -36,7 +36,7 @@ dependencies:
     specifier: ^3.0.0
     version: 3.0.0
   hexo-theme-async:
-    specifier: ^2.1.14
+    specifier: ^2.2.2
     version: 2.2.2
   hexo-theme-landscape:
     specifier: ^1.0.0
