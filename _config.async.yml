@@ -10,6 +10,9 @@ keywords:
 author: Gony
 language: zh-Hans
 timezone: ''
+web_analytics:  
+  enable: true
+  google: G-YR71JX9XCY
 banner:
   default:
     type: img
